@@ -53,6 +53,11 @@ header nav {
 #bottom-header-inner a {
     margin: 0 0.5rem;
     color: #333;
+    transition: 0.3s ease-in-out;
+}
+
+#bottom-header-inner a:hover {
+    color: #0071e3;
 }
 
 #bottom-header-inner .btn,
@@ -61,12 +66,13 @@ header nav {
     padding: 0.4rem 1rem;
     border-radius: 10rem;
     color: #fff;
-    transition: 0.4s;
+    transition: 0.4s ease-in-out;
 }
 
 #bottom-header-inner .btn:hover,
 .btn:hover {
     background-color: #0c60b4;
+    color: #fff;
 }
 
 /* Ribbon */
