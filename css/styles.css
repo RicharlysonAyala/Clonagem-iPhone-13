@@ -194,3 +194,47 @@ header nav {
 .selected {
     outline: 2px solid #43a1ff;
 }
+
+/* Responsividade */
+
+/* Tablet */
+@media (max-width: 768px) {
+    #main-content {
+        overflow: hidden;
+    }
+
+    #main-content {
+        padding: 2rem;
+    }
+
+    #product-image {
+        padding-left: 1rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    #navbar li {
+        display: none;
+    }
+
+    #navbar #logo {
+        display: flex;
+    }
+
+    #bottom-header-links a {
+        display: none;
+    }
+
+    #bottom-header-links .btn {
+        display: flex;
+    }
+
+    #main-content {
+        padding: 2rem;
+    }
+
+    #main-content #sub-title {
+        font-size: 3rem;
+    }
+}
