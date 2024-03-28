@@ -204,12 +204,9 @@ header nav {
     }
 
     #main-content {
-        padding: 2rem;
+        padding: 1rem;
     }
 
-    #product-image {
-        padding-left: 1rem;
-    }
 }
 
 /* Mobile */
